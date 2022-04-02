@@ -1,0 +1,27 @@
+/*body {
+    background-image: url(../img/telainicial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:600px;
+    height:px;
+    flex-direction: row;
+}*/
+.inputTexto{
+    width: 500px;
+    height: 110px;
+    flex-direction: row;
+    border-radius: 18px;
+    border-color: rgb(43, 63, 172);
+    border-width: 15px;
+    margin-left: 60px;
+    justify-content: center;
+    
+}
+.texto{
+    background-color: white;
+    display:flex ;
+    flex-direction: row;
+}
+.escolher{
+    text-align: center
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cripto.css">
+    <script src="./cripto.js" defer></script>
+    <title>Mensagem oculta</title>
+</head>
+
+<body>
+    <form>
+        <div class="texto">
+            <div>
+                <h1>Texto</h1>
+                <textarea id="codificar" class="inputTexto" type="text"></textarea>
+            </div>
+            <div>
+                <h1>Base64</h1>
+                <textarea id="decodificar" class="inputTexto" type="text"></textarea>
+            </div>
+        </div>
+        <input class="escolher" name="cripto" type="radio" value="cesar"> Cifra de César <br>
+        <input class="escolher" name="cripto" type="radio" value="base64"> Base64
+        <button type="submit" onclick="verificarEncode()">Codificar</button>
+        <button type="submit" onclick="verificarDecode()">Decodificar</button>
+    </form>
+</body>
+
+</html>
