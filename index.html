@@ -22,7 +22,9 @@
                 <textarea id="decodificar" class="inputTexto" type="text"></textarea>
             </div>
         </div>
-        <input class="escolher" name="cripto" type="radio" value="cesar"> Cifra de César <br>
+        <div id="divCifra">
+            <input id="cifra" name="cripto" type="radio" value="cesar" onclick="inserirCampo()"> Cifra de César <br>
+        </div>
         <input class="escolher" name="cripto" type="radio" value="base64"> Base64
         <button type="submit" onclick="verificarEncode()">Codificar</button>
         <button type="submit" onclick="verificarDecode()">Decodificar</button>
