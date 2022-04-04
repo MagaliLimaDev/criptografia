@@ -47,8 +47,10 @@ var alfabeto = () => {
 function inserirCampo(){
   var inputCesar = document.createElement("input");
   inputCesar.type = "number";
+  var incremento = document.createElement("label");
+  incremento.innerText = "Adicione o Incremento: "
+  document.getElementById("divCifra").appendChild(incremento);
   document.getElementById("divCifra").appendChild(inputCesar);
-  
 }
 
 
