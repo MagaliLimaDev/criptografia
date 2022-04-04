@@ -47,6 +47,7 @@ var alfabeto = () => {
 function inserirCampo(){
   var inputCesar = document.createElement("input");
   inputCesar.type = "number";
+  inputCesar.id="inputCesarNumber"
   var incremento = document.createElement("label");
   incremento.innerText = "Adicione o Incremento: "
   document.getElementById("divCifra").appendChild(incremento);
@@ -56,10 +57,7 @@ function inserirCampo(){
 
 
 function codificarCesar(){
-  var cesar = document.getElementById("cifra");
-  for (var i = 0; i< cesar.length; i++);
-
-  
+  var deslocamento = document.getElementById("inputCesarNumber").value;
 
 }
 
