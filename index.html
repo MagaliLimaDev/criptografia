@@ -18,14 +18,14 @@
                 <textarea id="codificar" class="inputTexto" type="text"></textarea>
             </div>
             <div>
-                <h1>Base64</h1>
+                <h1 id="texto2">*</h1>
                 <textarea id="decodificar" class="inputTexto" type="text"></textarea>
             </div>
         </div>
         <div id="divCifra">
             <input id="cifra" name="cripto" type="radio" value="cesar" onclick="inserirCampo()"> Cifra de César <br>
         </div>
-        <input class="escolher" name="cripto" type="radio" value="base64"> Base64
+        <input class="escolher" name="cripto" type="radio" value="base64" onclick="trocarTexto2()"> Base64
         <button type="submit" onclick="verificarEncode()">Codificar</button>
         <button type="submit" onclick="verificarDecode()">Decodificar</button>
     </form>
