@@ -5,7 +5,7 @@ document.querySelector("form").addEventListener("submit", function(event){
 function trocarTexto2(){
   document.getElementById("texto2").innerText = "Base64"
   document.getElementById("inputCesarNumber").style.display="none"
-    document.getElementById("incrementoCesar").style.display="none"
+  document.getElementById("incrementoCesar").style.display="none"
 }
 
 function inserirCampo(){

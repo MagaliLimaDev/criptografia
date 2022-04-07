@@ -1,5 +1,6 @@
 function codificarCesar(){
     var deslocamento = parseInt(document.getElementById("inputCesarNumber").value);
+    deslocamento = deslocamento % 26;
     var texto = document.getElementById("codificar").value;
     var textoMinusculo = texto.toLowerCase();
     var alfabeto = "abcdefghijklmnopqrstuvxwyz".split('');
@@ -32,6 +33,7 @@ function codificarCesar(){
   
   function decodificarCesar(){
     var deslocamento = parseInt(document.getElementById("inputCesarNumber").value); //parseInt transforma o "texto" em numero
+    deslocamento = deslocamento % 26; 
     var texto = document.getElementById("decodificar").value;
     var textoMinusculo = texto.toLowerCase();
     var alfabeto = "abcdefghijklmnopqrstuvxwyz".split('');
